@@ -23,3 +23,6 @@ vim.o.shiftwidth = 4;
 -- Expand tabs to spaces
 vim.o.expandtab = true;
 
+vim.lsp.enable('rust-analyzer');
+vim.lsp.enable('clangd');
+
