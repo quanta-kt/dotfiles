@@ -25,4 +25,5 @@ vim.o.expandtab = true;
 
 vim.lsp.enable('rust-analyzer');
 vim.lsp.enable('clangd');
+vim.lsp.enable('typescript-language-server');
 
