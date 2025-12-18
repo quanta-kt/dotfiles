@@ -27,3 +27,9 @@ vim.lsp.enable('rust-analyzer');
 vim.lsp.enable('clangd');
 vim.lsp.enable('typescript-language-server');
 
+vim.keymap.set(
+    "n", "<leader>d",
+    vim.diagnostic.open_float,
+    { desc = "Open LSP diagnostic" }
+);
+
