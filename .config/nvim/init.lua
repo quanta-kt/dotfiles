@@ -33,3 +33,5 @@ vim.keymap.set(
     { desc = "Open LSP diagnostic" }
 );
 
+require('gitsigns');
+
