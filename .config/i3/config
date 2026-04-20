@@ -229,3 +229,7 @@ exec_always --no-startup-id dunst
 exec --no-startup-id xset s off
 exec --no-startup-id xset -dpms
 exec --no-startup-id xset s noblank
+
+bindsym $mod+Print exec flameshot full
+bindsym Shift+Print exec flameshot gui
+
